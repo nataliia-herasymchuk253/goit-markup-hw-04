@@ -166,7 +166,7 @@ font-family: "Roboto", sans-serif;*/
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
  }
- 
+
 .feature-text {
   font-weight: 400;
   font-size: 16px;
@@ -265,7 +265,7 @@ font-family: "Roboto", sans-serif;*/
     padding: 188px 0;
 
     /* homework 4*/
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
