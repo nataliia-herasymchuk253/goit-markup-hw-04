@@ -156,7 +156,16 @@ font-family: "Roboto", sans-serif;*/
  .feature-item {
   width: calc((100% - 72px) / 4);
  }
-
+ .feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+ }
 .feature-text {
   font-weight: 400;
   font-size: 16px;
@@ -255,11 +264,12 @@ font-family: "Roboto", sans-serif;*/
     padding: 188px 0;
 
     /* homework 4*/
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
  }
 
  h1 {
