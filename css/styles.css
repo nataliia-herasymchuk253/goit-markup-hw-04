@@ -269,10 +269,12 @@ gap: 24px;
   justify-content: center;
   
 }
+  /* NOT ----
 .card-soc-link,
 .card-soc-link{
   background-color: #404bbf;
 }
+ ----*/
 
  .card-socnetwork {
   fill: #f4f4fd
