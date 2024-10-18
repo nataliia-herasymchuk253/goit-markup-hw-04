@@ -267,17 +267,19 @@ gap: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
-  /* NOT ----
-.card-soc-link,
-.card-soc-link{
+  
+.card-soc-link:hover,
+.card-soc-link:focus{
   background-color: #404bbf;
 }
- ----*/
+ 
 
  .card-socnetwork {
-  fill: #f4f4fd
+  fill: #f4f4fd;
+  
  }
  
 
@@ -289,6 +291,8 @@ gap: 24px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+
+  padding-bottom: 8px;
  }
  .position-portfolio {
    font-weight: 400;
