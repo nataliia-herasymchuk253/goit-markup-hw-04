@@ -17,10 +17,21 @@ font-family: "Roboto", sans-serif;*/
   a {
     text-decoration: none;
   }
+   .footer-container {
+    display: flex;
+    align-items: baseline;
+    
+   }
+
   .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+
+    /*
+    margin-right: 120px;
+    */
+    
   }
 /* ------ style for header------*/
 .page-header {
@@ -127,6 +138,7 @@ font-family: "Roboto", sans-serif;*/
    
    .page-footer {
     background-color: #2e2f42;
+    
    }
    /* ----home work 2 ------   */
 
@@ -275,7 +287,10 @@ gap: 24px;
 .card-soc-link:focus{
   background-color: #404bbf;
 }
- 
+ .media-footer:hover,
+ .media-footer:focus{
+  background-color: #31d0aa;
+ }
 
  .card-socnetwork {
   fill: #f4f4fd;
@@ -440,5 +455,20 @@ gap: 24px;
     color: #F4F4FD;
     max-width: 264px;
    }
-   
-   
+   .footer-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+   }
+   .social-media-list {
+    display: flex;
+    gap: 16px;
+
+   }
+   .social-media-item {
+    width: 40px;
+    height: 40px;
+   }
