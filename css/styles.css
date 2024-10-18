@@ -28,9 +28,7 @@ font-family: "Roboto", sans-serif;*/
     padding: 0 15px;
     margin: 0 auto;
 
-    /*
-    margin-right: 120px;
-    */
+    
     
   }
 /* ------ style for header------*/
@@ -442,7 +440,9 @@ gap: 24px;
  .page-footer {
   padding: 100px 0;
  }
-
+ .footer-box {
+  margin-right: 120px;
+ }
  .footer-logo {
   display: inline-block;
  }
